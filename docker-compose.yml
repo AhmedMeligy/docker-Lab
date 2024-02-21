@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  php-welcome-page:
+    image: ahmedelmeligy/ahmed:latest
+    ports:
+      - "8080:80"
